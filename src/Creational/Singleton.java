@@ -1,3 +1,5 @@
+package Creational;
+
 public class Singleton {
     private static Singleton instance;
     private int counter;
@@ -5,7 +7,7 @@ public class Singleton {
     private Singleton()
     {
         counter=0;
-        System.out.println("Singleton is Instantiated");
+        System.out.println("Creational.Singleton is Instantiated");
     }
 
     public static Singleton getInstance(){
